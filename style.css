@@ -2,5 +2,12 @@ body{
     padding: 0;
     margin: 100px 300px;
     align-items: center;
-    background-color: gray;
+    background-color: hsl(210, 60%, 98%);
 }
+
+.container{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
