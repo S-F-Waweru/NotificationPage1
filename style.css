@@ -1,6 +1,45 @@
+@font-face{
+    font-family: 'PlusJakartaSans'; 
+  src: url('assets\fonts\PlusJakartaSans-VariableFont_wght.ttf'); 
+}
 body{
-    padding: 0;
+    font-family: PlusJakartaSans, sans-serif;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'PlusJakartaSans'; 
+  src: url('assets\fonts\PlusJakartaSans-VariableFont_wght.ttf'); 
+}
+.container{
     margin: 100px 300px;
-    align-items: center;
+
+}
+.title{
+    padding:8px 12px;
+    background-color: aqua;
+}
+
+.title_text{
+    font-weight: bold;
+    font-size: 20PX;
+}
+.notification_count{
+    background-color: darkblue;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+.title_read_text{
+    float: right;
+    font-size: 16px;
+}
+
+
+/* Notifications */
+
+.notification{
+    margin: 12px 4px;
+    border-radius: 12px;
     background-color: gray;
+    padding:20px;
 }
