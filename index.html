@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | Notifications page</title>
+  <title>Frontend Mentor |  class="notification"Notifications page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
@@ -17,67 +17,84 @@
 </head>
 <body>
 
-  <nav></nav>
-
     <!-- Container Division -->
     <div class="container">
       <!-- heading -->
-      <div>
-        Notifications 3
-        Mark all as read
+      <div class="title">
+        <p> <span class="title_text">Notifications </span> 
+        <span class="notification_count">3</span>
+       <Span class="title_read_text">Mark all as read</Span></p>
+        
       </div>
-       
-  <div> 
-      Mark Webber reacted to your recent post My first tournament today!
-      1m ago
+
+  <div class="notification"> 
+    <img src="assets\images\avatar-mark-webber.webp" alt="mark webbber">
+    <p><b>Mark Webber</b> reacted to your recent post <b>My first tournament today!</b><br>
+      1m ago</p> 
+  </div>
+
+  <div class="notification"> 
+    <img src="assets\images\avatar-angela-gray.webp" alt="">
+    <p><b>Angela Gray</b> followed you<br>
+      5m ago</p> 
+      
+  </div>
   
+      
+  <div class="notification"> 
+    <img src="assets\images\avatar-jacob-thompson.webp" alt="">
+    <p><b>Jacob Thompson</b> has joined your group <b>Chess Club</b><br>
+      5m ago</p> 
+      
   </div>
-     
-  <div>
-    Angela Gray followed you
-        5m ago
-  </div>
+
+  
+  <div class="notif"> 
         
-  <div>
-    Jacob Thompson has joined your group Chess Club
-        1 day ago
+    <img src="assets\images\avatar-rizky-hasanuddin.webp" alt="">
+    <p><b>Rizky Hasanuddin</b> sent you a private message <br>
+      5m ago</p> 
   </div>
-        
-  <div>
-    Rizky Hasanuddin sent you a private message
-    5 days ago
+
     <!-- PRivate message -->
-    <div>
-      Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-    I'm already having lots of fun and improving my game.
+    <div class="pmessage">
+      <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        I'm already having lots of fun and improving my game.</p>
     </div>
     
   
-  </div>
   
-       
-  <div>
-    Kimberly Smith commented on your picture
-        1 week ago
-  </div>
+  
+  <div class="notif"> 
         
-  <div>
-    Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-        2 weeks ago
+    <img src="assets\images\avatar-kimberly-smith.webp" alt="">
+    <p><b>Kimberly Smith</b> commented on your picture <br>
+      1 week ago</p> 
   </div>
+  
+    
+  <div class="notif"> 
         
-  
-  <div>
-      Anna Kim left the group Chess Club
-        2 weeks ago
+    <img src="assets\images\avatar-nathan-peterson.webp" alt="">
+    <p><b>Nathan Peterson</b> reacted to your recent post <b>5 end-game strategies to increase your win rate</b><br>
+      2 weeks ago</p> 
   </div>
+ 
+  <div class="notif"> 
         
+    <img src="assets\images\avatar-anna-kim.webp" alt="">
+    <p><b>Anna Kim</b> left the group <b>Chess Club</b><br>
+      2 weeks ago</p> 
+  </div>      
   
   </div>
-  
-  <div class="attribution">
+
+   
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
+</div>
 </body>
 </html>
