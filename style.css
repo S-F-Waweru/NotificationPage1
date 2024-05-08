@@ -5,6 +5,7 @@
 body{
     font-family: PlusJakartaSans, sans-serif;
     font-weight: 400;
+    background-color: hsl(210, 60%, 98%);
 }
 @font-face{
     font-family: 'PlusJakartaSans'; 
@@ -15,13 +16,13 @@ body{
     padding: 10px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
+    margin: 100px 300px;
 }
 
 
-}
 .title{
     padding:8px 12px;
-    background-color: aqua;
+    color: hsl(224, 21%, 14%);
 }
 
 .title_text{
@@ -37,6 +38,7 @@ body{
 .title_read_text{
     float: right;
     font-size: 16px;
+    color: hsl(224, 21%, 14%);
 }
 
 
@@ -45,6 +47,7 @@ body{
 .notification{
     margin: 12px 4px;
     border-radius: 12px;
-    background-color: gray;
+    background-color:hsl(210, 60%, 98%);
     padding:20px;
+    font-size: 16px;
 }
