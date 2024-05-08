@@ -1,7 +1,8 @@
 @font-face{
     font-family: 'PlusJakartaSans'; 
-  src: url('https://fonts.google.com/specimen/Plus+Jakarta+Sans'); 
+  src: url('assets\fonts\PlusJakartaSans-VariableFont_wght.ttf'); 
 }
+
 body{
     font-family: PlusJakartaSans, sans-serif;
     font-weight: 400;
@@ -13,12 +14,16 @@ body{
     src: url('https://fonts.google.com/specimen/Plus+Jakarta+Sans'); 
 }
 
+@font-face{
+    font-family: 'PlusJakartaSans'; 
+  src: url('assets\fonts\PlusJakartaSans-VariableFont_wght.ttf'); 
+}
+
 .container{
     padding: 10px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     margin: 100px 300px;
-    position: fixed;
 }
 
 
@@ -52,61 +57,4 @@ body{
     background-color:hsl(210, 60%, 98%);
     padding:20px;
     font-size: 16px;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    position: relative;
-
-}
-
-.notification img{
-    width: 48px;
-    height: 48px;
-    padding: 4px;
-    float: left;
-}
-
-.notification p{
-    /* float: right; */
-    margin-left: 65px;
-
-}
-
-.notif{
-    margin: 12px 4px;
-    border-radius: 12px;
-    background-color: hsl(0, 0%, 100%);
-    padding-left:20px;
-    font-size: 16px;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    margin-left: 20px;
-
-    
-}
-
-.notif img{
-    width: 48px;
-    height: 48px;
-    padding: 4px;
-    float: left;
-}
-
-.notif p{
-        margin-left: 65px;
-    
-} 
-
-.pmessage{
-    margin: 12px 4px;
-    border-radius: 10px;
-    background-color:hsl(210, 60%, 98%);
-    padding:15px;
-    font-size: 16px;
-    align-items: right;
-    justify-content: right;
-    height: 60px;
-    margin-left: 100px;
-
 }
